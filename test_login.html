@@ -12,7 +12,9 @@
     <button onclick="login()">Login</button>
     <button onclick="getProducts()">getProducts</button>
     <script>
-      const SERVER = "http://127.0.0.1:8000/";
+      // const SERVER = "http://127.0.0.1:8000/"; // local
+      const SERVER = "https://johnbryce-django-deploy.onrender.com/"; // remote
+
       let myToken = "";
 
       const login = () => {
